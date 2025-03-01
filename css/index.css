@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#particles-js{
+    position: relative;
+    height: 100vh;
+    background: #000;
+}
+
+#container-body{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 100%;
+    height: 100vh;
+}
+
+#container-menu{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+#logo-menu{
+    margin-left: 100px;
+    height: 80px;
+}
+
+#container-nav{
+    align-content: center;
+    margin-right: 100px;
+}
+
+#item-menu{
+    display: flex;
+}
+
+li a{
+    text-decoration: none;
+}
+
+.login{
+    margin-left: 10px;
+    color: aliceblue;
+}
+
+.login:hover{
+    color: goldenrod;
+}
+
+#container-content-body{
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    align-items: center;
+    padding: 30px;
+}
+
+#content-text-body{
+    color: aliceblue;
+    padding-left: 80px;
+    padding-right: 20px;
+    width: 50%;
+}
+
+#titulo{
+    color: goldenrod;
+}
+
+.text-body{
+    display: flex;
+}
+
+.text-body i, p{
+    color: aliceblue;
+}
+
+#container-wallet{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#btn-start-now{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 25px;
+}
+
+#btn-start-now:hover{
+    border: 2px solid goldenrod;
+    color: goldenrod;
+}
