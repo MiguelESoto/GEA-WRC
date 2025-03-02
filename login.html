@@ -8,9 +8,11 @@
     <link rel="stylesheet" href="css/login.css">
 </head>
 
-<!--Div del fondo de Blockchain-->
 
-<body id="particles-js">
+
+<body>
+    <!--Div del fondo de Blockchain-->
+    <div id="particles-js" class="body-background"></div>
     <!--Inicio de sesión-->
     <main>
         <div id="container-body">
@@ -20,14 +22,14 @@
                     <br>
                     <p>Inicia sesión para entrar a la página.</p>
                     <br>
-                    <button class="btn-lr"><b>Iniciar sesión</b></button>
+                    <button id="btn-login" class="btn-lr">Iniciar sesión</button>
                 </div>
                 <div id="container-register" class="container-content-lr">
                     <h2>¿Aún no tienes una cuenta?</h2>
                     <br>
                     <p>Regístrate para que puedas iniciar sesión.</p>
                     <br>
-                    <button class="btn-lr"><b>Registrarse</b></button>
+                    <button id="btn-register" class="btn-lr">Registrarse</button>
                 </div>
             </div>
 
@@ -35,7 +37,7 @@
                 <form action="" class="form-login">
                     <h2>Iniciar Sesión</h2>
                     <input type="text" placeholder="Correo electrónico">
-                    <input type="password" Contraseña>
+                    <input type="password" placeholder="Contraseña">
                     <button>Entrar</button>
                 </form>
 
@@ -44,7 +46,7 @@
                     <input type="text" placeholder="Nombre">
                     <input type="text" placeholder="Apellido">
                     <input type="text" placeholder="Correo electrónico">
-                    <input type="password" Contraseña>
+                    <input type="password" placeholder="Contraseña">
                     <button>Registrarse</button>
                 </form>
             </div>
@@ -53,6 +55,7 @@
 
     <script type="text/javascript" src="js/particles.js"></script>
     <script type="text/javascript" src="js/app.js"></script>
+    <script src="js/lr.js"></script>
 </body>
 
 </html>
